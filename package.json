@@ -13,6 +13,7 @@
   },
   "author": "Piotr Wietlicki",
   "license": "ISC",
+  "keywords": ["react", "rich text editor"],
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
