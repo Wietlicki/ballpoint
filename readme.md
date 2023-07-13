@@ -1,5 +1,5 @@
 # Ballpoint
-![alt text](https://ibb.co/QJwPK1Z.PNG)
+![alt text](https://ibb.co/QJwPK1Z)
 
 Ballpoint is a rich text editor typescript framework and component library for React.
 
