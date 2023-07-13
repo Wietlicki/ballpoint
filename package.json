@@ -1,7 +1,7 @@
 {
   "name": "ballpoint",
   "version": "1.0.0",
-  "description": "Simple rich text editor for react.js",
+  "description": "Lightweight rich text editor framework and component lib for React",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
@@ -32,6 +32,7 @@
     "rollup": "^3.21.8",
     "rollup-plugin-dts": "^5.3.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
     "storybook": "^7.0.12",
     "tslib": "^2.5.0",
     "typescript": "^5.0.4"

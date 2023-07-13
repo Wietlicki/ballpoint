@@ -1,11 +1,13 @@
 import React, { Component} from 'react';
-import { CoreClipboardActionsConfig, CoreKeyActionsConfig, CoreState, ICoreState, Toolbar } from '..';
+import { CoreClipboardActionsConfig, CoreKeyActionsConfig, ICoreState } from '../Core/Core.types'
 import { actionApplyAlignment } from '../Core/Actions/actionApplyAlignment';
 import { actionApplyFormatting } from '../Core/Actions/actionApplyFormatting';
 import { actionApplyStyle } from '../Core/Actions/actionApplyStyle';
 import { actionFormatAsHeaderOrParagraph } from '../Core/Actions/actionFormatAsHeaderOrParagraph';
 import { actionFormatAsList } from '../Core/Actions/actionFormatAsList';
 import { Core } from '../Core/Core';
+import { CoreState } from '../Core/CoreState';
+import { Toolbar } from "../Toolbar/Toolbar";
 import { IEditorProps, IEditorState } from './Editor.type';
 import './Editor.css';
 
