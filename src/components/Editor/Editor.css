@@ -1,0 +1,8 @@
+.ballpoint-editor {
+    border: 1px solid rgb(238, 238, 238);
+    border-bottom-width: 3px;
+}
+.ballpoint-editor.dark {
+    border: none;
+    color: white;
+}

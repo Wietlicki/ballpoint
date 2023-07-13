@@ -1,0 +1,30 @@
+.ballpoint-tb-color-bt {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+.ballpoint-tb-color-bt.default {
+    border: 2px solid rgba(40, 40, 40, 0);
+    background-color: rgba(235, 235, 235, 0);
+    transition: background-color 200ms, border-color 200ms;
+}
+.ballpoint-tb-color-bt.default:hover {
+    background-color: rgba(235, 235, 235, 1);
+    border-color: rgba(40, 40, 40, 1);
+}
+.ballpoint-tb-color-bt.light {
+    background-color: rgba(235, 235, 235, 0);
+    transition: background-color 200ms;
+}
+.ballpoint-tb-color-bt.light:hover {
+    background-color: rgba(235, 235, 235, 1);
+}
+.ballpoint-tb-color-bt.dark {
+    background-color: rgba(60, 60, 60, 0);
+    transition: background-color 200ms;
+}
+.ballpoint-tb-color-bt.dark:hover {
+    background-color: rgba(60, 60, 60, 1);
+}

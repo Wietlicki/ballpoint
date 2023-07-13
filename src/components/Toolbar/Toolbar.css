@@ -1,0 +1,46 @@
+.ballpoint-tb {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    position: relative;
+    background-color: transparent;
+}
+.ballpoint-tb.default {
+    background-color: rgb(248, 248, 248);
+    border-bottom: 2px solid rgb(80, 80, 80);
+}
+.ballpoint-tb > .buttons {
+    display: flex;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+.ballpoint-tb > .buttons.hidden {
+    visibility: hidden;
+}
+@media (min-width: 720px){
+    .ballpoint-tb > .buttons:not(:first-child) {
+        border-left: 1px solid rgb(80, 80, 80);
+    }
+}
+.ballpoint-tb > .menu {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: inherit;
+    width: 100%;
+    min-height: 100%;
+    padding: 10px;
+    align-items: top;
+    z-index: 9;
+}
+.ballpoint-tb.default > .menu {
+    background-color: rgb(248, 248, 248);
+    border-bottom: 2px solid rgb(80, 80, 80);
+}
+.ballpoint-tb > .menu > button { flex-shrink: 0; }
+.ballpoint-tb > .menu > .buttons {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid rgb(80, 80, 80);
+}
