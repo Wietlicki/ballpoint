@@ -1,6 +1,6 @@
 {
   "name": "ballpoint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight rich text editor framework and component lib for React",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -13,7 +13,10 @@
   },
   "author": "Piotr Wietlicki",
   "license": "ISC",
-  "keywords": ["react", "rich text editor"],
+  "keywords": [
+    "react",
+    "rich text editor"
+  ],
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
